@@ -1,0 +1,48 @@
+.foota{
+    min-width: 50%;
+    margin: 10px;
+    
+}
+.footer{
+    
+    border-bottom: 1px solid white;
+    
+} 
+ul{
+    line-height: 40px;
+}
+li{
+    list-style: none;
+    
+}
+Link{
+    text-decoration: none;
+    color: white;
+    
+}
+.link:hover{
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+.footerinput{
+    padding: 2px;
+    min-width: 20%;
+    height: 30px;
+    position: absolute;
+}
+.footerButton1{
+    height: 20px;
+    min-width: 60px;
+    padding: 1px;
+    text-align: center;
+    font-size: x-small;
+    border-radius: 0%;
+    position: relative;
+    margin-left: 50%;
+
+}
+.footerIcon{
+    display: flex;
+    justify-items: flex-end;
+}
