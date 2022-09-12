@@ -93,7 +93,7 @@ const Signup = (props) => {
               <input
                 type="text"
                 className="form-control mt-1"
-                placeholder="full name"
+                
                 value={username}
                 onChange= {(e)=>setUsername(e.target.value)}
               />
@@ -103,7 +103,7 @@ const Signup = (props) => {
               <input
                 type="email"
                 className="form-control mt-1"
-                placeholder="Email Address"
+                
                 value={email}
                 onChange= {(e)=>setEmail(e.target.value)}
               />
@@ -113,7 +113,7 @@ const Signup = (props) => {
               <input
                 type="password"
                 className="form-control mt-1"
-                placeholder="Password"
+              
                 value={password}
                 onChange= {(e)=>setPassword(e.target.value)}
               />
